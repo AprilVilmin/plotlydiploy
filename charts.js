@@ -202,11 +202,13 @@ function buildCharts3(sample) {
    
     
     // 4. Create the trace for the gauge chart.
-    https://blog.hubspot.com/website/how-to-bold-in-html#:~:text=To%20bold%20the%20text%20in,property%20set%20to%20%E2%80%9Cbold.%E2%80%9D
+    //https://blog.hubspot.com/website/how-to-bold-in-html#:~:text=To%20bold%20the%20text%20in,property%20set%20to%20%E2%80%9Cbold.%E2%80%9D
+    //https://getbootstrap.com/docs/4.0/utilities/colors/
     var gaugeData = [
       {
         value: frequency,
         type: "indicator",
+        color: "#bg-warning",
         mode: "gauge+number",
         title: { text: "<b> Belly Button Washing Frequency </b> <br> Scrubs per Week"},
         gauge: {
